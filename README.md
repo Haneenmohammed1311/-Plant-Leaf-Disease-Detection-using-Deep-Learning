@@ -37,7 +37,8 @@ plant_disease_classification_app/
 
 ## 🖼️ Dataset Sample Images
 
-> 👉 **![Uploading image.png…]()**  
+> 👉 <img src="IMAGE_URL" width="400">
+
 Upload a collage of the dataset in the repo as:  
 `assets/dataset_samples.jpg`
 
