@@ -19,7 +19,7 @@ The project includes:
 
 
 ```plant_disease_classification_app/
-│
+
 ├── _ALL_Errors.txt
 ├── Plant_disease_classification_app (Static, upload)
 ├── Plant_disease_detection_app
@@ -65,4 +65,25 @@ Below is a sample image showcasing the crops and disease types in the dataset:
 ---
 
 ## 📂 Folder Structure
+
+```plant_disease_classification_app/
+
+├── _ALL_Errors.txt
+├── Plant_disease_classification_app (Static, upload)
+├── Plant_disease_detection_app
+│   ├── static/
+│   │   ├── uploads/
+│   │   ├── styles.css
+│   ├── templates/
+│   │   ├── index.html
+│   ├── uploads/
+│   │   ├── .gitkeep
+│   │   ├── images/
+│   ├── .gitignore
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── ResNet.keras
+```
 
