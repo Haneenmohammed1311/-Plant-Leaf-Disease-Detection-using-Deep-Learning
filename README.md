@@ -6,12 +6,16 @@ This project was developed as part of **Samsung Innovation Campus Graduation Pro
 
 ## 📌 Overview
 
-Plant diseases cause significant crop losses every year, affecting productivity, export quality, and farmer income.  
-This project provides an automated, AI-powered detection system capable of identifying diseases from leaf images.
+Plant diseases cause major yield losses globally and in Egypt. Early and accurate detection helps farmers protect crops, reduce chemical usage, and improve productivity.
+This project uses Deep Learning (CNNs) to detect diseases image classification.
 
-
-
-The system uses **Transfer Learning** trained on augmented datasets to classify leaf images with high accuracy.
+The project includes:
+ ✔️ Multi-class plant disease classification  
+- ✔️ Web application built with **Flask**  
+- ✔️ Deployed on **Hugging Face Spaces**  
+- ✔️ Containerized using **Docker**  
+- ✔️ REST API endpoint for instant predictions  
+- ✔️ Automation pipeline for image preprocessing + model serving
 
 plant_disease_classification_app/
 │
@@ -35,16 +39,14 @@ plant_disease_classification_app/
 
 ---
 
-## 🖼️ Dataset Sample Images
+## 🌾Dataset Sample Images
 
+Below is a sample image showcasing the crops and disease types in the dataset:
 > 👉 <img src="https://github.com/Haneenmohammed1311/-Plant-Leaf-Disease-Detection-using-Deep-Learning/blob/main/Samples%20of%20the%20crops.jpg" width="400">
 
-Upload a collage of the dataset in the repo as:  
-`assets/dataset_samples.jpg`
+## Healthy images :
 
-Then use this:
-
-![Dataset Samples](./assets/dataset_samples.jpg)
+> 👉 <img src="https://github.com/Haneenmohammed1311/-Plant-Leaf-Disease-Detection-using-Deep-Learning/blob/main/Samples%20of%20the%20crops.jpg" width="400">
 
 ---
 
