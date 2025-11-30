@@ -19,23 +19,22 @@ The project includes:
 
 plant_disease_classification_app/
 │
-├── _ALL_Errors.txt
-├── Plant_disease_classification_app (Static, upload)
-├── Plant_disease_detection_app
+├── Plant_disease_detection_app/
 │   ├── static/
 │   │   ├── uploads/
-│   │   ├── styles.css
+│   │   └── styles.css
 │   ├── templates/
-│   │   ├── index.html
+│   │   └── index.html
 │   ├── uploads/
-│   │   ├── .gitkeep
-│   │   ├── images/
-├── .gitignore
-├── app.py
-├── Dockerfile
-├── README.md
-├── requirements.txt   
-├── ResNet.keras
+│   │   └── .gitkeep
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── ResNet.keras
+│
+├── _ALL_Errors.txt
+├── _Plant_disease_classification_app/
+└── README.md
 
 ---
 
