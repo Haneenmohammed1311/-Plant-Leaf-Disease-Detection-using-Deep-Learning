@@ -26,12 +26,12 @@ plant_disease_classification_app/
 │   ├── uploads/
 │   │   ├── .gitkeep
 │   │   ├── images/
-│   ├── .gitignore
-│   ├── app.py
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── ResNet.keras
+├── .gitignore
+├── app.py
+├── Dockerfile
+├── README.md
+├── requirements.txt   
+├── ResNet.keras
 
 ---
 
