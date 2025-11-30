@@ -1,1 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.exe
+*.dll
+
+# ---- Virtual environments ----
+venv/
+env/
+ENV/
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints/
+
+# ---- TensorFlow / Keras large model files ----
+*.h5
+*.keras
+*.pb
+*.tflite
+
+# ---- Uploads folders (avoid pushing images) ----
+uploads/
+static/uploads/
+app/uploads/
+*/uploads/*
+
+# ---- Log files ----
+*.log
+*_ALL_Errors.txt
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
 
