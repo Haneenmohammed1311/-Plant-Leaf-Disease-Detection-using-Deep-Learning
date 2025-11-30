@@ -48,7 +48,7 @@ Below is a sample image showcasing the crops and disease types in the dataset:
 
 ## Healthy images :
 
-> 👉 <img src="[https://github.com/Haneenmohammed1311/-Plant-Leaf-Disease-Detection-using-Deep-Learning/blob/main/Samples%20of%20the%20crops.jpg](https://github.com/Haneenmohammed1311/-Plant-Leaf-Disease-Detection-using-Deep-Learning/blob/main/Healthy.png)" width="400">
+> 👉 <img src="https://github.com/Haneenmohammed1311/-Plant-Leaf-Disease-Detection-using-Deep-Learning/blob/main/Healthy.png" width="400">
 
 ---
 
