@@ -37,7 +37,7 @@ plant_disease_classification_app/
 
 ## 🖼️ Dataset Sample Images
 
-> 👉 <img src="IMAGE_URL" width="400">
+> 👉 <img src="https://github.com/Haneenmohammed1311/-Plant-Leaf-Disease-Detection-using-Deep-Learning/blob/main/Samples%20of%20the%20crops.jpg" width="400">
 
 Upload a collage of the dataset in the repo as:  
 `assets/dataset_samples.jpg`
