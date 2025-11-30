@@ -7,20 +7,37 @@ This project was developed as part of **Samsung Innovation Campus Graduation Pro
 ## 📌 Overview
 
 Plant diseases cause significant crop losses every year, affecting productivity, export quality, and farmer income.  
-This project provides an automated, AI-powered detection system capable of identifying diseases from leaf images across:
+This project provides an automated, AI-powered detection system capable of identifying diseases from leaf images.
 
-- 🌽 **Corn** (Common Rust, Grey Leaf Spot, Northern Leaf Blight, Healthy)  
-- 🥒 **Cucumber** (Diseased, Healthy)  
-- 🍋 **Lemon** (Diseased, Healthy)  
-- 🍈 **Guava** (Diseased, Healthy)
 
-The system uses **Transfer Learning (ResNet50 / DenseNet121)** trained on augmented datasets to classify leaf images with high accuracy.
+
+The system uses **Transfer Learning** trained on augmented datasets to classify leaf images with high accuracy.
+
+plant_disease_classification_app/
+│
+├── _ALL_Errors.txt
+├── Plant_disease_classification_app (Static, upload)
+├── Plant_disease_detection_app
+│   ├── static/
+│   │   ├── uploads/
+│   │   ├── styles.css
+│   ├── templates/
+│   │   ├── index.html
+│   ├── uploads/
+│   │   ├── .gitkeep
+│   │   ├── images/
+│   ├── .gitignore
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── ResNet.keras
 
 ---
 
 ## 🖼️ Dataset Sample Images
 
-> 👉 **Add your image here**  
+> 👉 **![Uploading image.png…]()**  
 Upload a collage of the dataset in the repo as:  
 `assets/dataset_samples.jpg`
 
