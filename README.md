@@ -17,8 +17,8 @@ The project includes:
 - ✔️ REST API endpoint for instant predictions  
 - ✔️ Automation pipeline for image preprocessing + model serving
 
-plant_disease_classification_app/
-plant_disease_classification_app/
+
+```plant_disease_classification_app/
 │
 ├── _ALL_Errors.txt
 ├── Plant_disease_classification_app (Static, upload)
@@ -37,6 +37,7 @@ plant_disease_classification_app/
 │   ├── README.md
 │   ├── requirements.txt
 │   ├── ResNet.keras
+```
 
 
 ---
