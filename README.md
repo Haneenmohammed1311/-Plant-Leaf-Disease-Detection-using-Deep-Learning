@@ -138,6 +138,7 @@ Below is a sample image showcasing the crops and disease types in the dataset:
 ```
 ## 👩‍💻 Author
 **Haneen Mohammed Mousa And Lourina Emil Fawzy**
-**AS graduation Project from Samsung Innovation Campus(SIC)**
+***AS graduation Project from Samsung Innovation Campus(SIC)***
+**LinkedIN :https://www.linkedin.com/in/haneen-mohammed13/**
 ```
 
