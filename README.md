@@ -44,7 +44,8 @@ Due to GitHub file size limitations, the dataset is **not included in this repos
   👉 (https://www.kaggle.com/code/haneenmohammed13/plant-disease-classification))
 - **And for DEMO:**
   👉 (https://www.linkedin.com/posts/haneen-mohammed13_agriculture-flask-chatbot-activity-7400983799242641408-ZyW3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFXqN0YB9MXJE1EtZI6fzRserWu6bzT7RvY))
-
+- **if you want to try the website:**
+  👉 (https://huggingface.co/spaces/Lourina2/plant-disease-detection)
 ---
 
 ## 🌾Dataset Sample Images
