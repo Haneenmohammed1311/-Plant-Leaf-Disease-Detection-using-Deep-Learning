@@ -1,145 +1,167 @@
-# 🌿 Plant Leaf Disease Detection using Deep Learning  
+<div align="center">
 
-## 📌 Introduction
-Plant diseases significantly affect agricultural productivity and crop quality.  
-Early and accurate detection of plant diseases is essential to reduce crop loss, optimize treatment decisions, and support sustainable farming practices.
+# 🌿 Plant Leaf Disease Detection
+### Deep Learning & Computer Vision System for Agricultural Diagnostics
 
-This project presents a **deep learning–based computer vision system** that detects and classifies plant leaf diseases from images, providing a fast and reliable diagnostic tool that can be used by farmers and agricultural stakeholders.
+*End-to-end · CNN + Transfer Learning · Deployed · Automated*
+
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://tensorflow.org)
+[![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)](https://keras.io)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21F?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co)
+[![Samsung SIC](https://img.shields.io/badge/Samsung%20Innovation%20Campus-1428A0?style=flat-square&logo=samsung&logoColor=white)](https://samsung.com)
+
+<br/>
+
+[![Kaggle Notebook](https://img.shields.io/badge/📓%20View%20Notebook-Kaggle-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/code/haneenmohammed13/plant-disease-classification)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Hugging%20Face-FFD21F?style=for-the-badge)](https://huggingface.co/spaces/Lourina2/plant-disease-detection)
+[![LinkedIn Demo](https://img.shields.io/badge/🎬%20Watch%20Demo-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/posts/haneen-mohammed13_agriculture-flask-chatbot-activity-7400983799242641408-ZyW3)
+
+</div>
 
 ---
 
-## 🧾 Project Summary
-In this project, I designed and implemented an **end-to-end plant disease detection system** using **Convolutional Neural Networks (CNNs)**.  
-The system takes an image of a plant leaf as input and predicts the disease class with high accuracy.
+## 📌 Overview
 
-The project covers the full pipeline:
-- Data understanding and preparation
-- Deep learning model development
-- Model evaluation
-- Deployment and automation
-- Real-world and business impact analysis
+Plant diseases are one of the leading causes of agricultural loss worldwide. Traditional diagnosis requires expert knowledge, is time-consuming, and is inaccessible to most small-scale farmers.
+
+This project presents a **deep learning–based computer vision system** that automatically detects and classifies plant leaf diseases from images — providing a fast, accurate, and accessible diagnostic tool for farmers and agricultural stakeholders.
+
+The system covers the **complete pipeline**: data preparation → model development → evaluation → deployment → automation.
+
+> Developed as a graduation project from **Samsung Innovation Campus (SIC)** in collaboration with **Lourina Emil Fawzy**.
 
 ---
 
 ## 🎯 Problem Statement
-Traditional plant disease diagnosis:
-- Requires expert knowledge
-- Is time-consuming
-- Is not easily accessible for small-scale farmers
 
-**Objective:**  
-Build an automated, scalable, and accessible solution that enables early plant disease detection using image-based deep learning models.
+- Traditional plant disease diagnosis **requires expert knowledge** most farmers don't have
+- Manual inspection is **time-consuming** and prone to human error
+- Early-stage diseases are **missed** until crop damage becomes severe
+- Small-scale farmers have **no affordable, accessible diagnostic tool**
 
----
-
-## 📊 Dataset
-
-Due to GitHub file size limitations, the dataset is **not included in this repository**.
-
-- **Dataset Name:** Plant Leaf Disease Dataset  
-- **Source:** Kaggle  
-- **Dataset Link:**  
-  👉 (https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset)
-- **NoteBook Link :**
-  👉 (https://www.kaggle.com/code/haneenmohammed13/plant-disease-classification))
-- **And for DEMO:**
-  👉 (https://www.linkedin.com/posts/haneen-mohammed13_agriculture-flask-chatbot-activity-7400983799242641408-ZyW3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFXqN0YB9MXJE1EtZI6fzRserWu6bzT7RvY))
-- **if you want to try the website:**
-  👉 (https://huggingface.co/spaces/Lourina2/plant-disease-detection)
----
-
-## 🌾Dataset Sample Images
-
-Below is a sample image showcasing the crops and disease types in the dataset:
-> 👉 <img src="https://github.com/Haneenmohammed1311/-Plant-Leaf-Disease-Detection-using-Deep-Learning/blob/main/Samples%20of%20the%20crops.jpg" width="400">
-
-## Healthy images :
-
-> 👉 <img src="https://github.com/Haneenmohammed1311/-Plant-Leaf-Disease-Detection-using-Deep-Learning/blob/main/Healthy.png" width="400">
+**Objective:** Build an automated, scalable, and accessible solution for early plant disease detection using image-based deep learning.
 
 ---
 
 ## 🧠 Technical Approach
 
 ### 1️⃣ Data Preparation & Preprocessing
-- Image resizing and normalization
-- Dataset splitting (train / validation / test)
-- Data augmentation:
-  - Rotation
-  - Flipping
-  - Zooming
-- Handling class imbalance to improve generalization
 
----
+- Image resizing and normalization
+- Dataset splitting: train / validation / test
+- Data augmentation: rotation, flipping, zooming
+- Handling class imbalance to improve model generalization
 
 ### 2️⃣ Model Development
-- Designed **CNN architectures from scratch**
-- Experimented with **pre-trained models** for performance comparison
-- Tuned hyperparameters (learning rate, batch size, epochs)
-- Used regularization techniques to reduce overfitting
 
----
+- Designed **CNN architectures from scratch**
+- Experimented with **pre-trained models** (ResNet) for performance comparison via transfer learning
+- Tuned hyperparameters: learning rate, batch size, number of epochs
+- Applied regularization techniques to reduce overfitting
 
 ### 3️⃣ Model Evaluation
-- Tracked training and validation accuracy/loss
-- Evaluated model generalization on unseen test data
-- Analyzed misclassified samples to identify weaknesses
+
+- Tracked training and validation **accuracy & loss curves**
+- Evaluated model generalization on **unseen test data**
+- Analyzed **misclassified samples** to identify and address weaknesses
 
 ---
 
 ## 🚀 Deployment & Automation
-- Deployed the trained model using **Flask** as a backend service
-- Built a simple and user-friendly interface using **HTML & CSS**
-- Integrated the model with the **Hugging Face API** for scalable inference
-- Automated predictions using a **Telegram Bot**, allowing users to upload images and receive instant diagnosis
+
+| Layer | Implementation |
+|---|---|
+| Backend | **Flask** web application |
+| Frontend | HTML & CSS user interface for image upload & prediction |
+| Scalable Inference | **Hugging Face API** integration |
+| Automation | **Telegram Bot** — users send a leaf image and receive instant diagnosis |
+| Containerization | **Docker** for reproducible, portable deployment |
 
 ---
 
+## 💼 Business & Impact
 
+- ✅ Solves a **real agricultural problem** — early disease detection at scale
+- 💰 Helps farmers **reduce crop loss and treatment costs**
+- 📊 Enables **data-driven farming decisions**
+- 🌾 Can integrate into Agritech platforms or mobile advisory systems
+- 🌍 Supports **sustainable agriculture and food security goals**
 
-## 💼 Business & Impact Perspective
-- Solves a **real agricultural problem**: early disease detection
-- Helps farmers **reduce crop loss and treatment costs**
-- Enables **data-driven farming decisions**
-- Can be integrated into Agritech platforms or mobile advisory systems
-- Supports **sustainable agriculture and food security goals**
+---
+
+## 📊 Dataset
+
+> Due to GitHub file size limits, the dataset is not included in this repository.
+
+- **Name:** Plant Leaf Disease Classification Dataset
+- **Source:** Kaggle
+- **Format:** Image classification (multi-class)
+
+[![Dataset](https://img.shields.io/badge/📦%20Download%20Dataset-Kaggle-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset)
 
 ---
 
-## 🛠️ Tools & Technologies
-- **Programming Language:** Python  
-- **Deep Learning:** TensorFlow, Keras  
-- **Computer Vision:** CNNs  
-- **Deployment:** Flask  
-- **Automation & APIs:** Hugging Face API, Telegram Bot  
-- **Frontend:** HTML, CSS  
+## 🛠️ Technologies & Tools
+
+| Category | Tools |
+|---|---|
+| Language | Python |
+| Deep Learning | TensorFlow, Keras |
+| Model Architecture | CNN (from scratch) + ResNet (transfer learning) |
+| Deployment | Flask |
+| Automation | Hugging Face API, Telegram Bot |
+| Frontend | HTML, CSS |
+| Containerization | Docker |
 
 ---
-## 📂 Folder Structure
 
-```plant_disease_classification_app/
+## 📁 Project Structure
 
-├── _ALL_Errors.txt
-├── Plant_disease_classification_app (Static, upload)
-├── Plant_disease_detection_app
+```
+Plant-Leaf-Disease-Detection/
+│
+├── Plant_disease_detection_app/
 │   ├── static/
 │   │   ├── uploads/
-│   │   ├── styles.css
+│   │   └── styles.css
 │   ├── templates/
-│   │   ├── index.html
+│   │   └── index.html
 │   ├── uploads/
-│   │   ├── .gitkeep
-│   │   ├── images/
-│   ├── .gitignore
 │   ├── app.py
 │   ├── Dockerfile
-│   ├── README.md
 │   ├── requirements.txt
-│   ├── ResNet.keras
-```
-## 👩‍💻 Author
-**Haneen Mohammed Mousa And Lourina Emil Fawzy**
-***AS graduation Project from Samsung Innovation Campus(SIC)***
-**LinkedIN :https://www.linkedin.com/in/haneen-mohammed13/**
+│   └── ResNet.keras          ← Trained model weights
+│
+├── Plant_disease_classification_app/
+├── _ALL_Errors.txt
+└── README.md
 ```
 
+---
+
+## 🔮 Future Work
+
+- [ ] Support for more crop species and disease classes
+- [ ] Mobile application for direct camera-based diagnosis in the field
+- [ ] Severity estimation alongside disease classification
+- [ ] Multilingual support (Arabic interface for Egyptian farmers)
+- [ ] Integration with IoT sensors for environment-aware diagnosis
+
+---
+
+## 👩‍💻 Authors
+
+**Haneen Mohammed Mousa** &nbsp;·&nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haneen-mohammed13)
+
+**Lourina Emil Fawzy** &nbsp;·&nbsp; Graduation Project — Samsung Innovation Campus (SIC)
+
+---
+
+## 📜 License
+
+This project is intended for **educational and research purposes** only.
